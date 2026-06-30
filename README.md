@@ -1,6 +1,12 @@
-Joystick with built-in pull-up on SW, no extra resistors needed.
+# piPiMouse
+USB hid mouse using Raspberry Pi Pico and 5 pin analog joy stick
 
----
+## Wiring
+GND > GND
++5V > 3V3
+VRX > GP27_A1
+VRY > GP28_A0
+SW  > GP17
 
 ## 1. CircuitPython version (original)
 
@@ -11,7 +17,6 @@ Joystick with built-in pull-up on SW, no extra resistors needed.
 
 Plug in, it appears as USB mouse immediately.
 
----
 
 ## 2. C++ version (PlatformIO + Arduino)
 
